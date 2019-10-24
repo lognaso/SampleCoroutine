@@ -2,7 +2,7 @@
     <string name="app_name">SampleCoroutine</string>
     <string name="tab_text_1">Sort List</string>
     <string name="tab_text_2">Document</string>
+    <string name="tab_text_3">Animated</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

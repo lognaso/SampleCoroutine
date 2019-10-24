@@ -29,7 +29,7 @@ class DocsViewModel : ViewModel() {
 
     suspend fun saveDocs(activity: FragmentActivity?, text: String) = withContext(Dispatchers.IO) {
         val response = launch {
-            val file = "temp2.txt"
+            val file = "temp.txt"
             val data: String = text
             val fileOutputStream: FileOutputStream?
             try {
@@ -51,7 +51,7 @@ class DocsViewModel : ViewModel() {
 
     suspend fun getDocs(activity: FragmentActivity?) = withContext(Dispatchers.IO) {
         try {
-            val filename = "temp2.txt"
+            val filename = "temp.txt"
             var fileInputStream: FileInputStream? = null
             fileInputStream = activity?.openFileInput(filename)
             val inputStreamReader = InputStreamReader(fileInputStream)

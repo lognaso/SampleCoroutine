@@ -21,7 +21,7 @@ class SortListViewModel : ViewModel() {
 
     private fun initList() {
         val list: MutableList<String> = arrayListOf()
-        for (item in 900 downTo 1) {
+        for (item in 100 downTo 1) {
             list.add("Item $item")
         }
         _mList.value = list
